@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<title>首页</title>
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/common.css"/>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		
+	</head>
+	
+	<body>
+		
+		<!--  导航  -->
+		<nav class="S_navNar">
+			<div class="logo">
+				<img src="images/logo.png">
+			</div>
+			<div class="phoneNav">
+				<div class="mobile-nav">
+						<span class="control-icon"></span>
+						<span class="control-icon"></span>
+						<span class="control-icon"></span>
+					</div>
+				<ul class="S_navNarGrown">
+					<li><a>首页</a></li>
+					<li><a>主题乐园</a></li>
+					<li><a>游园攻略</a></li>
+					<li><a>美食住宿</a></li>
+					<li><a>在线订票</a></li>
+					<li><a>活动公告</a></li>
+					<li><a>公园概况</a></li>
+				</ul>
+				<div class="S_navNarFright">
+					<span>2020年06月21日 晴29℃</span>
+					<a>登录</a>
+				</div>
+			</div>
+			
+		</nav>
+		
+		
+		
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="js/fontSize.js" ></script>
+	<script>
+		
+		
+		/* Phone导航 */
+		$(".mobile-nav").click(function(){
+			$(".S_navNarGrown").slideToggle();
+			$(".phoneNav").toggleClass("phoneNavT");
+			$("body").toggleClass("fixed");
+			$(".control-icon").eq(0).toggleClass("control-icon-left");
+			$(".control-icon").eq(1).toggleClass("hidden");
+			$(".control-icon").eq(2).toggleClass("control-icon-right");
+			$(".S_navNarFright").toggleClass("show")
+		})
+		
+	</script>
+</html>

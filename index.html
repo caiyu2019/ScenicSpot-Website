@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<title>首页</title>
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/common.css"/>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<style>
+		html, body {
+		    position: relative;
+		    height: 100%;
+		}
+		.swiper-container {
+		    width: 100%;
+		    height: 916px;
+		    /*height: 100%;*/
+		}
+		.swiper-slide {
+		    background-position: center;
+		    background-size: cover;
+		    display: flex;
+			flex-direction:column ;
+			align-items: center; /*定义body的元素垂直居中*/
+			justify-content: center; /*定义body的里的元素水平居中*/
+		}
+		</style>
+	</head>
+	
+	<body>
+		
+		<!--  导航  -->
+		<div class="head"></div>
+		
+		
+		<!-- Swiper -->
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+				<div class="swiper-slide" style="background: url(images/banner03.png) no-repeat; background-size: cover;">
+					<p class="bannerTxt">绿城翡翠</p>
+					<p class="bannerTxt">广西高峰森林公园</p>
+				</div>
+		        <div class="swiper-slide" style="background: url(images/banner01.png) no-repeat; background-size: cover;">
+		        		<p class="bannerTxt">绿城翡翠</p>
+					<p class="bannerTxt">广西高峰森林公园</p>
+		        </div>
+		        <div class="swiper-slide" style="background: url(images/banner02.png) no-repeat; background-size: cover;">
+		        		<p class="bannerTxt">绿城翡翠</p>
+					<p class="bannerTxt">广西高峰森林公园</p>
+		        </div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination swiper-pagination-white"></div>
+		    <!-- Add Arrows -->
+		    <div class="swiper-button-next swiper-button-white"></div>
+		    <div class="swiper-button-prev swiper-button-white"></div>
+		</div>
+		
+		<!--  热门推荐  -->
+		<div class="PopularRecommendation clear">
+			<h2 class="indexTitle">热门推荐</h2>
+			<div class="Popular01">
+				<div class="PopularTxt">横空出世！南宁首座玻璃天空悬廊，5月29日起盛大迎客！领门票啦！</div>
+			</div>
+			<div class="row mt30">
+				<div class="col-lg-6">
+					<div class="Popular02">
+						<div class="PopularTxt PopularTxtSmall"><惠民>森林公园平日景点全票+园区午餐套票</div>
+					</div>
+				</div>
+				<div class="col-lg-6 ">
+					<div class="row">
+						<div class="col-lg-6 ">
+							<div class="Popular03">
+								<div class="PopularTxt PopularTxtSmall">精灵王国六一免费游丨玩广西最大的“网红粉猪头”！</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="Popular04">
+								<div class="PopularTxt PopularTxtSmall">卡丁车基地欢迎您，来排队打卡吧！</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mt30">
+						<div class="col-lg-6">
+							<div class="Popular05">
+								<div class="PopularTxt PopularTxtSmall">爱情朝圣，情侣浪漫一日游</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="Popular06">
+								<div class="PopularTxt PopularTxtSmall">家庭观光游，幸福之旅</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--  满屏  -->
+		<div class="w100 clearfix" style="margin-top: 150px;">
+			<div class="col-lg-6 " style="padding: 0;">
+				<div class="fullImg">
+					<img src="images/fullImg01.png" />
+					<div class="fullImgConten">
+						<div class="fullImgTitle">生命河谷</div>
+						<div class="fullImgTxt">
+							<p>溯河之行</p>
+							<p>人与森林湖泊的欢悦时光</p>
+						</div>
+						<a class="fullImgBtn">查看详情</a>
+					</div>
+				</div>
+				<div class="fullImg">
+					<img src="images/fullImg03.png" />
+					<div class="fullImgConten">
+						<div class="fullImgTitle">星空营地</div>
+						<div class="fullImgTxt">
+							<p>观天地之大美</p>
+							<p>赏星月之光华</p>
+						</div>
+						<a class="fullImgBtn">查看详情</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6" style="padding: 0;">
+				<div class="fullImg">
+					<img src="images/fullImg02.png" />
+					<div class="fullImgConten">
+						<div class="fullImgTitle">9D玻璃桥</div>
+						<div class="fullImgTxt">
+							<p>视觉、听觉、触觉融为一体</p>
+							<p>惊喜又刺激</p>
+						</div>
+						<a class="fullImgBtn">查看详情</a>
+					</div>
+				</div>
+				<div class="fullImg">
+					<img src="images/fullImg04.png" />
+					<div class="fullImgConten">
+						<div class="fullImgTitle">精灵河谷</div>
+						<div class="fullImgTxt">
+							<p>人与森林万物</p>
+							<p>的亲密互动</p>
+						</div>
+						<a class="fullImgBtn">查看详情</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--  美味饮食  -->
+		<div class="w100 clearfix mt30">
+			<div class="col-lg-12" style="padding: 0;">
+				<img class="sm-img-hide" src="images/diet.png" />
+				<div class="sm-img-show"></div>
+				<div class="fullImgConten">
+					<div class="dietTitle">美味饮食</div>
+					<div class="dietTitleLine"></div>
+					<div class="dietTxt">
+						<p>欢聚林野，享自然美食</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--  酒店住宿  -->
+		<div class="w100 clearfix mt30">
+			<div class="col-lg-12" style="padding: 0;">
+				<img class="sm-img-hide" src="images/house.png" />
+				<div class="sm-img-show" style="background: url(images/house.png) no-repeat center center;"></div>
+				<div class="fullImgConten">
+					<div class="dietTitle">酒店住宿</div>
+					<div class="dietTitleLine"></div>
+					<div class="dietTxt">
+						<p>烂漫月下星光，舒适与宁静</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--  公园动态  -->
+		<div class="dynamic">
+			<h2 class="indexTitle">公园动态</h2>
+			<div class="row mb50">
+				<div class="col-lg-4">
+					<div class="newImg">
+						<img src="images/news01.png">
+					</div>
+					<div class="newTxt">2020年05月29日   广西高峰森林公园“天空之城” 玻璃悬廊首日迎客近8000人 </div>
+				</div>
+				<div class="col-lg-4">
+					<div class="newImg">
+						<img src="images/news02.png">
+					</div>
+					<div class="newTxt">2020年05月21日 “鸡枞菌”|“虎奶菇”来自高峰森林公园的天然珍品，一年一遇，最鲜美的“菌子” 上市 了！</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="newImg">
+						<img src="images/news03.png">
+					</div>
+					<div class="newTxt">2020年05月29日   广西高峰森林公园“天空之城” 玻璃悬廊首日迎客近8000人 </div>
+				</div>
+			</div>
+			<a class="indeMoreBtn">了解更多</a>
+			<ul class="scenicSpot clearfix">
+				<li>
+					<div class="scenicSpotIcon"><img src="images/scenicSpotIcon01.png"></div>
+					<div class="scenicSpotTxt">游园须知</div>
+				</li>
+				<li>
+					<div class="scenicSpotIcon"><img src="images/scenicSpotIcon02.png"></div>
+					<div class="scenicSpotTxt">票务信息</div>
+				</li>
+				<li>
+					<div class="scenicSpotIcon"><img src="images/scenicSpotIcon03.png"></div>
+					<div class="scenicSpotTxt">园区导览</div>
+				</li>
+				<li>
+					<div class="scenicSpotIcon"><img src="images/scenicSpotIcon04.png"></div>
+					<div class="scenicSpotTxt">服务电话</div>
+				</li>
+				<li>
+					<div class="scenicSpotIcon"><img src="images/scenicSpotIcon05.png"></div>
+					<div class="scenicSpotTxt">周边交通</div>
+				</li>
+			</ul>
+		</div>
+		
+		<!-- 底部 -->
+		<footer class="footer">
+		</footer>
+		
+	</body>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="js/fontSize.js" ></script>
+	<script>
+		 $(function() {
+                $(".head").load("head.html");
+				$(".footer").load("footer.html");
+         })
+		var swiper = new Swiper('.swiper-container', {
+		    pagination: '.swiper-pagination',
+		    paginationClickable: true,
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev',
+			autoplay : 3000,
+			speed:1000,
+			loop:true,
+			paginationType : 'fraction',
+		    effect: 'fade'
+		});
+		
+		/* Phone导航 */
+		$(".mobile-nav").click(function(){
+			$(".S_navNarGrown").slideToggle();
+			$(".phoneNav").toggleClass("phoneNavT");
+			$("body").toggleClass("fixed");
+			$(".control-icon").eq(0).toggleClass("control-icon-left");
+			$(".control-icon").eq(1).toggleClass("hidden");
+			$(".control-icon").eq(2).toggleClass("control-icon-right");
+			$(".S_navNarFright").toggleClass("show")
+		})
+		
+		/* 手机底部导航 */
+		$(".footerTitle").click(function(){
+			$(this).next(".navItem").slideToggle();
+			$(this).find(".add-icon").toggleClass("add-icon-rotate");
+		})
+		
+	</script>
+</html>
+    
